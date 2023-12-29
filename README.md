@@ -2,6 +2,9 @@
 
 This repository contains a simple Spring Boot CRUD API server that demonstrates the Spring Boot architecture with various layers, including Controller, Service, Repository, Model, and H2 in-memory Database.
 
+![Spring Boot Architecture Diagram](Spring Boot Architecture.drawio.png)
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -17,6 +20,7 @@ This repository contains a simple Spring Boot CRUD API server that demonstrates 
 ## Introduction
 
 Just want to document this basic Spring Boot architecture with a model (`User`), a repository for data access, a service for business logic, and a controller for handling HTTP requests. Extend and customize each layer as required for future projects.
+
 
 ## Features
 

@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2023-12-29T23:22:24.263Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="OjUZZP1RA1Lb6N169Ue4" version="22.1.16" type="device">
+  <diagram name="Page-1" id="8euxYXCEOD96NP3HBT1a">
+    <mxGraphModel dx="780" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-8" value="Request&lt;br&gt;Response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="R3dYuuVuz6c_IN5nt5CH-1" target="R3dYuuVuz6c_IN5nt5CH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-1" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="79" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-9" value="Routes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="R3dYuuVuz6c_IN5nt5CH-2" target="R3dYuuVuz6c_IN5nt5CH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-2" value="Controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="R3dYuuVuz6c_IN5nt5CH-3" target="R3dYuuVuz6c_IN5nt5CH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-3" value="Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="373" y="190" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-4" value="Model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="518" y="190" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-5" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="533" y="290" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-7" value="Dependancy Injection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="R3dYuuVuz6c_IN5nt5CH-6" target="R3dYuuVuz6c_IN5nt5CH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-6" value="Repository Class extending CRUD Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="358" y="79" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-11" value="Spring Data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="R3dYuuVuz6c_IN5nt5CH-4" target="R3dYuuVuz6c_IN5nt5CH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3dYuuVuz6c_IN5nt5CH-12" value="Spring Boot Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
